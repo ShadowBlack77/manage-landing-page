@@ -15,3 +15,13 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .showed-ham-menu hr{
+    display: none;
+  }
+
+  .showed-ham-menu img {
+    display: block;
+  }
+}

@@ -3,7 +3,9 @@
     <h2 class="font-bold text-3xl text-primary-dark-blue text-center">What they’ve said</h2>
   </div>
   <div>
-    <app-custom-swaper />
+    <app-swaper-xl class="max-[1024px]:hidden min-[1440px]:block" />
+    <app-swaper-medium class="max-[768px]:hidden min-[1024px]:block min-[1440px]:hidden" />
+    <app-swaper-mini class="max-[768px]:block min-[1024px]:hidden min-[1440px]:hidden" />
   </div>
   <div class="flex justify-center">
     <button class="bg-primary-red-color text-neutral-very-light-gray rounded-3xl px-8 py-2">

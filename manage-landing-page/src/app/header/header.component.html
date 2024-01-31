@@ -1,17 +1,25 @@
-<header class="flex justify-evenly py-6 relative z-10">
+<header class="flex justify-evenly py-6 relative z-10 items-center">
   <div>
-    <img src="../../assets/images/logo.svg" alt="logo">
+    <a routerLink="/">
+      <img src="../../assets/images/logo.svg" alt="logo">
+    </a> 
   </div>
-  <div class="[&_a]:mx-4 [&_a]:text-primary-dark-blue">
-    <a href="#">Pricing</a>
-    <a href="#">Product</a>
-    <a href="#">About Us</a>
-    <a href="#">Careers</a>
-    <a href="#">Community</a>
+  <div class="[&_a]:mx-4 [&_a]:text-primary-dark-blue max-[768px]:hidden lg:block">
+    <a routerLink="/pricing" >Pricing</a>
+    <a routerLink="/product">Product</a>
+    <a routerLink="/about-us">About Us</a>
+    <a routerLink="/careers">Careers</a>
+    <a routerLink="/community">Community</a>
   </div>
   <div>
-    <button class="bg-primary-red-color text-neutral-very-light-gray rounded-3xl px-8 py-2">
+    <button class="bg-primary-red-color text-neutral-very-light-gray rounded-3xl px-8 py-2 max-[768px]:hidden">
       Get Started
     </button>
+  </div>
+  <div class="[&_hr]:w-[24px] [&_hr]:h-[3px] [&_hr]:bg-neutral-very-dark-blue flex flex-col h-[15px] justify-between md:flex min-[769px]:hidden" #hamButton (click)="hamMenuClick()">
+    <hr />
+    <hr />
+    <hr />
+    <img src="../../assets/images/icon-close.svg" alt="close" class="hidden">
   </div>
 </header>

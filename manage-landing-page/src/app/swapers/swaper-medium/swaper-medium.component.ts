@@ -3,13 +3,12 @@ import { register } from 'swiper/element/bundle';
 register();
 
 @Component({
-  selector: 'app-custom-swaper',
+  selector: 'app-swaper-medium',
   standalone: true,
   imports: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  templateUrl: './custom-swaper.component.html',
-  styleUrl: './custom-swaper.component.css'
+  templateUrl: './swaper-medium.component.html',
 })
-export class CustomSwaperComponent {
+export class SwaperMediumComponent {
 
 }

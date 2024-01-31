@@ -8,8 +8,7 @@ import { SectionOneComponent } from './section-one/section-one.component';
 import { SectionTwoComponent } from './section-two/section-two.component';
 import { SectionThreeComponent } from './section-three/section-three.component';
 import { FooterComponent } from './footer/footer.component';
-
-import { CustomSwaperComponent } from './custom-swaper/custom-swaper.component';
+import { FooterMobileComponent } from './components/footer-mobile.component';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +22,7 @@ import { CustomSwaperComponent } from './custom-swaper/custom-swaper.component';
     SectionTwoComponent,
     SectionThreeComponent,
     FooterComponent,
-    CustomSwaperComponent
+    FooterMobileComponent
   ],
   templateUrl: './app.component.html',
 })

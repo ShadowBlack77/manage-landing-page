@@ -13,7 +13,8 @@ module.exports = {
       'neutral-dark-graysih-blue': 'hsl(227, 12%, 61%)',
       'neutral-very-dark-blue': 'hsl(233, 12%, 13%)',
       'neutral-very-pale-red': 'hsl(13, 100%, 96%)',
-      'neutral-very-light-gray': 'hsl(0, 0%, 98%)'
+      'neutral-very-light-gray': 'hsl(0, 0%, 98%)',
+      'ham-menu-bg': 'rgba(0, 0, 0, .3)'
     }
   },
   plugins: [],
