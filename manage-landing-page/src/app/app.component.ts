@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
@@ -8,6 +8,8 @@ import { SectionOneComponent } from './section-one/section-one.component';
 import { SectionTwoComponent } from './section-two/section-two.component';
 import { SectionThreeComponent } from './section-three/section-three.component';
 import { FooterComponent } from './footer/footer.component';
+
+import { CustomSwaperComponent } from './custom-swaper/custom-swaper.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     SectionOneComponent,
     SectionTwoComponent,
     SectionThreeComponent,
-    FooterComponent
+    FooterComponent,
+    CustomSwaperComponent
   ],
   templateUrl: './app.component.html',
 })
